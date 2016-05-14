@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12042da3-010f-4e7f-a7ef-9f2f24346d40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Animals/MyReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Cat.class" afterPath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Cat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Dog.class" afterPath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Dog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Main.class" afterPath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Pet.class" afterPath="$PROJECT_DIR$/out/production/Java_lab_6/Animals/Pet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Animals/Cat.java" afterPath="$PROJECT_DIR$/src/Animals/Cat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Animals/Dog.java" afterPath="$PROJECT_DIR$/src/Animals/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Animals/Main.java" afterPath="$PROJECT_DIR$/src/Animals/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Animals/MyReader.java" afterPath="$PROJECT_DIR$/src/Animals/MyReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Animals/Pet.java" afterPath="$PROJECT_DIR$/src/Animals/Pet.java" />
     </list>
     <ignored path="Java_lab_6.iws" />
@@ -103,22 +95,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Animals/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="89" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="89" />
+            <state vertical-scroll-proportion="2.2744424">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyReader.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Animals/MyReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1457976">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/Animals/Cat.java" />
         <option value="$PROJECT_DIR$/src/Animals/Dog.java" />
         <option value="$PROJECT_DIR$/src/Animals/Main.java" />
-        <option value="$PROJECT_DIR$/src/Animals/Pet.java" />
         <option value="$PROJECT_DIR$/src/Animals/MyReader.java" />
+        <option value="$PROJECT_DIR$/src/Animals/Pet.java" />
       </list>
     </option>
   </component>
@@ -669,7 +663,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,7 +673,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1162,18 +1156,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animals/Pet.java">
+    <entry file="file://$PROJECT_DIR$/src/Animals/MyReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="89" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="89" />
-          <folding />
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Animals/MyReader.java">
+    <entry file="file://$PROJECT_DIR$/src/Animals/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1457976">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state vertical-scroll-proportion="2.2744424">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
