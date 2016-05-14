@@ -8,10 +8,20 @@ import java.io.*;
 public class Pet {
     //Кострукция ввода данных с клавиатуры
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-    //поля вес, пол, возраст
+    //поля вес, пол, возраст, строка заполнения
     private double ves = 0;
     private String sex = null;
     private int age = 0;
+    String a_str = null;
+    public boolean vibor = false;
+    public String viborStr = "";
+
+    //Конструктор
+    public Pet(double ves, String sex, int age) {
+        this.ves = ves;
+        this.sex = sex;
+        this.age = age;
+    }
 
     public double getVes() {
         return ves;
@@ -37,35 +47,9 @@ public class Pet {
         this.age = age;
     }
 
-    //Конструктор
-    public Pet() throws IOException {
-        System.out.println("Введите вес");
-        String a_str = null;
-        
-        //Алгоритм ввода веса
-        while (true) {
-            try {
-                a_str = bufferedReader.readLine();
-                setVes(Double.parseDouble(a_str));
-                break;
-            } catch (Exception e) {
-                System.out.println("Ошибка ввода веса, введите цифры(через точку)");
-            }
-        }
 
-        //Алгоритм ввода возраста
-        System.out.println("Введите возраст");
-        while (true) {
-            try {
-                a_str = bufferedReader.readLine();
-                setAge(Integer.parseInt(a_str));
-                break;
-            } catch (Exception e) {
-                System.out.println("Ошибка ввода возраста, введите цифры");
-            }
-        }
-
-        //Алгоритм ввода пола
+    //Алгоритм ввода пола
+    public void zapolnenieSex() {
         System.out.println("Введите пол животного (М/Ж)");
         while (true) {
             try {
@@ -77,7 +61,47 @@ public class Pet {
             } catch (Exception e) {
             }
         }
+    }
 
+    //Алгоритм ввода возраста
+    public void zapolnenieAge() {
+        System.out.println("Введите возраст");
+        while (true) {
+            try {
+                a_str = bufferedReader.readLine();
+                setAge(Integer.parseInt(a_str));
+                break;
+            } catch (Exception e) {
+                System.out.println("Ошибка ввода возраста, введите цифры");
+            }
+        }
+    }
 
+    //Алгоритм ввода веса
+    public void zapolnenieVes() {
+        System.out.println("Введите вес");
+        while (true) {
+            try {
+                a_str = bufferedReader.readLine();
+                setVes(Double.parseDouble(a_str));
+                break;
+            } catch (Exception e) {
+                System.out.println("Ошибка ввода веса, введите цифры(через точку)");
+            }
+        }
+    }
+
+    //Алогритм выбора да или нет
+    public void zapolnenieVibor() {
+        System.out.println("Хотите изменить возраст, пол и вес, или оставить по умолчанию?");
+        try {
+            viborStr = bufferedReader.readLine();
+            if (viborStr.equals("Да") || viborStr.equals("да")) {
+                vibor = true;
+            } else System.out.println("Возраст, пол и вес остались по умолчанию");
+                vibor = false;
+        } catch (Exception e) {
+        }
     }
 }
+

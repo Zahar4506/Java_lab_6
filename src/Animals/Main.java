@@ -17,7 +17,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
        /* Horse h1 = new Horse();
-        Pegas p1 = new Pegas();*/
+        Pegas p1 = new Pegas();
+        p1.flyPegas();*/
         Cat c1 = new Cat();
         c1.info();
         Dog d1 = new Dog();
