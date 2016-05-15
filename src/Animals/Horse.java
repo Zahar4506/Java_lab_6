@@ -5,9 +5,7 @@ import java.io.*;
 /**
  * Created by zleha_000 on 13.04.2016.
  */
-public class Horse {
-    //Кострукция ввода данных с клавиатуры
-    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+public class Horse extends MyReader{
 
     //Имя лошади
     private String nameHorse = null;

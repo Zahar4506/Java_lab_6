@@ -24,7 +24,6 @@ public class Cat extends Pet {
 
     }
 
-
     //Алгоритм введения имени кошки
     public void zapolnenieNameCat() {
         System.out.println("Введите имя кошака");

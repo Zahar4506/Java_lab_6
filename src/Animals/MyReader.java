@@ -14,12 +14,12 @@ public class MyReader {
 
     //Алогритм выбора да или нет
     public void zapolnenieVibor() {
-        System.out.println("Хотите изменить возраст, пол и вес, или оставить по умолчанию?");
+        System.out.println("Хотите изменить показатели или оставить по умолчанию?");
         try {
             viborStr = bufferedReader.readLine();
             if (viborStr.equals("Да") || viborStr.equals("да")) {
                 vibor = true;
-            } else System.out.println("Возраст, пол и вес остались по умолчанию");
+            } else System.out.println("Показатели остались по умолчанию");
             vibor = false;
         } catch (Exception e) {
         }
