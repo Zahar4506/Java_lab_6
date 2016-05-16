@@ -3,8 +3,9 @@ package Animals;
 /**
  * Created by zleha_000 on 09.05.2016.
  */
-public class Animal extends Pet{
-        private double dlina = 0;
+public class Animal extends Pet {
+    private double dlina = 0;
+
     public Animal(double ves, String sex, int age, double dlina) {
         super(1, "М", 2);
         this.dlina = dlina;
@@ -23,8 +24,10 @@ public class Animal extends Pet{
         while (true) {
             try {
                 a_str = bufferedReader.readLine();
-                setDlina(Double.parseDouble(a_str));
-                break;
+                if (Integer.parseInt(a_str) > 0 && Integer.parseInt(a_str) <= 1000) {
+                    setDlina(Double.parseDouble(a_str));
+                    break;
+                } else System.out.println("Введите длину от 0 до 1000");
             } catch (Exception e) {
                 System.out.println("Ошибка ввода длинны, введите цифры(через точку)");
             }
