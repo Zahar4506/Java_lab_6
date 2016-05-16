@@ -28,7 +28,7 @@ public class Cat extends Pet {
     public void zapolnenieNameCat() {
         System.out.println("Введите имя кошака");
         try {
-            nameCat = bufferedReader.readLine();
+            setNameCat(bufferedReader.readLine());
         } catch (Exception e) {
             System.out.println("Введено не корректное имя");
         }
@@ -43,6 +43,6 @@ public class Cat extends Pet {
     }
 
     public void info() {
-        System.out.println("\nКошака зовут - " + nameCat + " весит " + getVes() + " живет уже " + getAge() + " пол " + getSex() + "\n");
+        System.out.println("\nКошака зовут - " + getNameCat() + " весит " + getVes() + " живет уже " + getAge() + " пол " + getSex() + "\n");
     }
 }

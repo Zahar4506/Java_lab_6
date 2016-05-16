@@ -4,7 +4,7 @@ package Animals;
  * Created by zleha_000 on 09.05.2016.
  */
 public class Animal extends Pet {
-    private double dlina = 0;
+    private double dlina = 10;
 
     public Animal(double ves, String sex, int age, double dlina) {
         super(1, "М", 2);
