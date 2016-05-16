@@ -19,8 +19,8 @@ public class MyReader {
             viborStr = bufferedReader.readLine();
             if (viborStr.equals("Да") || viborStr.equals("да")) {
                 vibor = true;
-            } else System.out.println("Показатели остались по умолчанию");
-            vibor = false;
+            } else{ System.out.println("Показатели остались по умолчанию");
+            vibor = false;}
         } catch (Exception e) {
         }
     }

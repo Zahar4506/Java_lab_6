@@ -67,8 +67,12 @@ public class Pet extends MyReader {
         while (true) {
             try {
                 a_str = bufferedReader.readLine();
-                setAge(Integer.parseInt(a_str));
-                break;
+                if (Integer.parseInt(a_str) > 0 && Integer.parseInt(a_str) <= 100) {
+                    setAge(Integer.parseInt(a_str));
+                    break;
+                } else {
+                    System.out.println("Введите возраст от 0 до 100");
+                }
             } catch (Exception e) {
                 System.out.println("Ошибка ввода возраста, введите цифры");
             }
@@ -81,8 +85,13 @@ public class Pet extends MyReader {
         while (true) {
             try {
                 a_str = bufferedReader.readLine();
-                setVes(Double.parseDouble(a_str));
-                break;
+                if (Double.parseDouble(a_str) > 0 && Double.parseDouble(a_str) <= 300) {
+                    setVes(Double.parseDouble(a_str));
+                    break;
+                }
+                else {
+                    System.out.println("Введите вес от 0 до 300");
+                }
             } catch (Exception e) {
                 System.out.println("Ошибка ввода веса, введите цифры(через точку)");
             }
