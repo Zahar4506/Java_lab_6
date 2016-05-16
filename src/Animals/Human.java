@@ -6,15 +6,16 @@ package Animals;
 public class Human extends Ape {
 
     public Human(double ves, String sex, int age, double dlina, int agility) {
-        super(50, "М", 15, 187, 60);
-        zapolnenieVibor();
-        if (vibor == true) {
-            zapolnenieAge();
-            zapolnenieSex();
-            zapolnenieVes();
-            zapolnenieDlina();
-            zapolnenieAgility();
-        }
+        super(ves,sex,age,dlina,agility);
+        System.out.println();
+//        zapolnenieVibor();
+//        if (vibor == true) {
+//            zapolnenieAge();
+//            zapolnenieSex();
+//            zapolnenieVes();
+//            zapolnenieDlina();
+//            zapolnenieAgility();
+//        }
     }
     @Override
     public void action(Fish fish) {

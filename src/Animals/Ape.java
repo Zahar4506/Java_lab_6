@@ -8,7 +8,7 @@ public class Ape extends Animal {
 
     //Конструктор
     public Ape(double ves, String sex, int age, double dlina, int agility) {
-        super(30, "М", 2, 120);
+        super(ves,sex,age,dlina);
         this.agility = agility;
         zapolnenieVibor();
         if (vibor == true) {
@@ -18,7 +18,10 @@ public class Ape extends Animal {
             zapolnenieDlina();
             zapolnenieAgility();
         }
+        System.out.println();
     }
+
+
 
     public void zapolnenieAgility() {
         System.out.println("Введите ловкость цифрой от 0 до 100");
@@ -57,8 +60,8 @@ public class Ape extends Animal {
         } else System.out.println("К сожалению, человек сможет посмотреть на макушку обезьяны");
 
         if (this.getAgility() > human.getAgility()) {
-            System.out.println("Человек ловчее обезьяы, значит он сможет печатать на клавиатуре");
+            System.out.println("Человек отсталый, обезьяна сможет печатать на клавиатуре");
         } else
-            System.out.println("Этот человек очень странный, даже обезьяна сможет печатать на клавиатуре в отличии от него");
+            System.out.println("Этот человек сможет печатать на клавиатуре в отличии от обезьяны");
     }
 }

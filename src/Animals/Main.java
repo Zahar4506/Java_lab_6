@@ -16,13 +16,27 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-       /* Horse h1 = new Horse();
-        Pegas p1 = new Pegas();
-        p1.flyPegas();*/
-        Cat c1 = new Cat();
-        c1.info();
-        Dog d1 = new Dog();
-        d1.info();
-        // p1.fly();
+//        Horse h1 = new Horse();
+//        Pegas p1 = new Pegas();
+//        p1.flyPegas();
+//        Cat c1 = new Cat();
+//        c1.info();
+//               Dog d1 = new Dog();
+//        d1.info();
+        System.out.println("Человек");
+        Human hum = new Human(10, "М", 50, 180, 60);
+        System.out.println("Обезьяна");
+        Ape a = new Ape(50, "М", 20, 150, 30);
+        System.out.println("Рыба");
+        Fish f = new Fish(15, "М", 90,900);
+        System.out.println();
+        hum.action(f);
+        hum.action(a);
+        System.out.println();
+        a.action(hum);
+        a.action(f);
+        System.out.println();
+        f.action(hum);
+        f.action(a);
     }
 }

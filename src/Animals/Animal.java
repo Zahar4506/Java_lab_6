@@ -7,15 +7,16 @@ public class Animal extends Pet {
     private double dlina = 10;
 
     public Animal(double ves, String sex, int age, double dlina) {
-        super(1, "М", 2);
+        super(ves,sex,age);
         this.dlina = dlina;
-        zapolnenieVibor();
-        if (vibor == true) {
-            zapolnenieAge();
-            zapolnenieSex();
-            zapolnenieVes();
-            zapolnenieDlina();
-        }
+//        zapolnenieVibor();
+//        if (vibor == true) {
+//            zapolnenieAge();
+//            zapolnenieSex();
+//            zapolnenieVes();
+//            zapolnenieDlina();
+//        }
+        System.out.println();
     }
 
     //Алгоритм ввода веса

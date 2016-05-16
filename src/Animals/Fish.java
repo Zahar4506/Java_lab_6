@@ -6,8 +6,8 @@ package Animals;
 public class Fish extends Animal{
 
 
-    public Fish(double ves, String sex, int age) {
-        super(1, "М", 2, 20);
+    public Fish(double ves, String sex, int age, double dlina) {
+        super(ves,sex,age,dlina);
         zapolnenieVibor();
         if (vibor == true) {
             zapolnenieAge();
